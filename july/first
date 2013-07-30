@@ -1,0 +1,13 @@
+#!/bin/sh
+#frist
+#This file looks through all the files in the current
+#directory for the string POSIX, and then print the names of
+#those file to the standard output.
+for file in *
+do
+  if grep -q POSIX $file
+  then 
+  echlo $file
+  fi
+  done
+  exit 0
