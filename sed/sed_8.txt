@@ -1,0 +1,5 @@
+$ sed '1,3s/my/your/g; 3,$s/This/That/g' my.txt > sed_8.txt
+This is your cat, your cat's name is betty
+This is your dog, your dog's name is frank
+That is your fish, your fish's name is george
+That is my goat, my goat's name is adam
