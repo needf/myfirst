@@ -4,11 +4,21 @@
 
 2 创建虚拟用户
 
+  useradd book
+
 3 指定虚拟用户家目录及分组
+  
+  chown -R book:nogroup book
 
 4 用htpasswd生成用户登录帐号及密码
 
+  htpasswd -d -c /etc/ftp.users  book
+
 5 修改用户权限
+
+  编辑/etc/passwd  
+
+  book:x:100:100::book:/bin/false
 
 <2> 搭建基于Tornado的FTP权限管理的步骤：
 -------------------
