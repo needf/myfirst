@@ -1,4 +1,5 @@
-#TodoList
+TodoList
+--------------
 1 搭建ftp服务，目录：/srv/ftp
 
 2 权限：
@@ -10,5 +11,7 @@
 3 openyoudao
 
 4 基于web的权限管理
-#Update
+Update
+--------------
+2013年8月3号  实现了pam认证模块设计
 	
