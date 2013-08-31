@@ -12,7 +12,7 @@
 
 4 用htpasswd生成用户登录帐号及密码
 
-  htpasswd -d -c /etc/ftp.users  book
+  htpasswd -d -c /etc/vsftpd.users book
 
 5 修改用户权限
 
