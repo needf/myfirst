@@ -1,8 +1,0 @@
-$ awk 'NR!=1{a[$6]++;} END {for (i in a) print i ", " a[i];}' netstat.txt
-, 1
-FIN_WAIT2, 3
-LISTEN, 4
-TIME_WAIT, 3
-ESTABLISHED, 6
-LAST_ACK, 1
-FIN_WAIT1, 1

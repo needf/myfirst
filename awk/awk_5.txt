@@ -1,6 +1,0 @@
-# $ awk ' $6 ~ /FIN/ || NR==1 {print NR,$4,$5,$6}' OFS="\t" netstat.txt >awk_5.txt
-1	Local-Address	Foreign-Address	Statei
-6	coolshell.cn:80	61.140.101.185:37538	FIN_WAIT2
-9	coolshell.cn:80	116.234.127.77:11502	FIN_WAIT2
-13	coolshell.cn:80	124.152.181.209:26825	FIN_WAIT1
-18	coolshell.cn:80	117.136.20.85:50025	FIN_WAIT2
