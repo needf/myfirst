@@ -1,4 +1,0 @@
-Name Chinese English Math Average
-dfdsk 29 34 23 12.12
-dfsd 23 24 23 23.12
-qewe 32 33 34 34.12
