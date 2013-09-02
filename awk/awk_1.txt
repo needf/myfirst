@@ -1,0 +1,21 @@
+# $ awk '{print $1, $4}' netstat.txt
+Proto Local-Address
+tcp 0.0.0.0:3306
+tcp 0.0.0.0:80
+tcp 127.0.0.1:9000
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp coolshell.cn:80
+tcp :::22
+ 

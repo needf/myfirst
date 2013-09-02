@@ -1,0 +1,2 @@
+$ sed 's/<[^>]*>//g' html.txt
+This is what I meant. Understand?

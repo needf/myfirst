@@ -1,0 +1,8 @@
+#sed '3,6 {/This/d}' pets.txt
+This is my cat
+  my cat's name is betty
+  my dog's name is frank
+  my fish's name is george
+This is my goat
+  my goat's name is adam
+

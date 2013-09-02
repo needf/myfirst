@@ -1,0 +1,3 @@
+$ sed -n '/fish/p' my.txt 
+This is my fish, my fish's name is george
+

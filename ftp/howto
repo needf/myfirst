@@ -1,0 +1,35 @@
+<1> 添加虚拟用户的步骤：
+------------------
+1 创建用户的家目录
+
+2 创建虚拟用户
+
+  useradd book
+
+3 指定虚拟用户家目录及分组
+  
+  chown -R book:nogroup book
+
+4 用htpasswd生成用户登录帐号及密码
+
+  htpasswd -d -c /etc/ftp.users  book
+
+5 修改用户权限
+
+  编辑/etc/passwd  
+
+  book:x:100:100::book:/bin/false
+
+<2> 搭建基于Tornado的FTP权限管理的步骤：
+-------------------
+1 学习python基础知识
+
+2 学习Tornado框架
+
+3 学习css、js
+
+4 学习mysql数据库
+
+5 学习apache使用  
+
+详细链接：http://www.debian-tutorials.com/how-to-install-vsftpd-with-vistual-users-in-debian

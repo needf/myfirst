@@ -1,0 +1,7 @@
+# 从第一行到最后一行，如果匹配到This，则删除之；如果前面有空格，则去除空格
+$sed '1,${/This/d;s/^ *//g}'
+my cat's name is betty
+my dog's name is frank
+my fish's name is george
+my goat's name is adam
+
