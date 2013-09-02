@@ -1,8 +1,0 @@
-#!/bin/sh
-
-echo the date is $(date)
-	set $(date)
-	shift 
-	echo The month is $3
-
-	exit 0

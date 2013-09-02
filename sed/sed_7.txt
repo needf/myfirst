@@ -1,5 +1,0 @@
-$sed  's/s/S/3g'
-This is my cat, my cat'S name iS betty
-This is my dog, my dog'S name iS frank
-This is my fiSh, my fiSh'S name iS george
-This is my goat, my goat'S name iS adam
