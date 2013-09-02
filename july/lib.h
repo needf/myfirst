@@ -1,1 +1,0 @@
-void fred(char *);

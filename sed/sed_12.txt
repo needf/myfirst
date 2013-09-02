@@ -1,3 +1,0 @@
-$sed -n '/dog/,/fish/p' my.txt
-This is my dog, my dog's name is frank
-This is my fish, my fish's name is george

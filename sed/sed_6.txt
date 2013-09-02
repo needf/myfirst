@@ -1,5 +1,0 @@
-$sed 's/s/S/2' my.txt
-This iS my cat, my cat's name is betty
-This iS my dog, my dog's name is frank
-This iS my fish, my fish's name is george
-This iS my goat, my goat's name is adam
