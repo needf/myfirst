@@ -1,3 +1,4 @@
 image: nginx
 script:
+  - sudo apt-get install git-core
   - echo hello world
