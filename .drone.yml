@@ -5,3 +5,4 @@ script:
   - echo hello world
   - cat /etc/issue
   - sudo ifconfig | grep eth0
+  - cd /var/cache/drone/src/github.com/needf/myfirst&&ls
