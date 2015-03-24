@@ -2,3 +2,4 @@ image: dockerfile/nginx
 script:
   - echo hello world
   - cat /etc/issue
+  - sudo ifconfig | grep eth0
