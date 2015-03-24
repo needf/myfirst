@@ -1,4 +1,4 @@
-image: bradrydzewski/base
+image: ubuntu
 script:
   - sudo apt-get install git-core
   - echo hello world
