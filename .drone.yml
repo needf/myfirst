@@ -1,4 +1,4 @@
-image: ruby2.0.0
+image: nginx
 script:
   - sudo apt-get install git-core
   - echo hello world
