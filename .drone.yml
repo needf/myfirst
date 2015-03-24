@@ -6,5 +6,5 @@ script:
   - cat /etc/issue
   - sudo ifconfig | grep eth0
   - ls
-  - docker ps
+  - sudo docker ps
   - cd /var/cache/drone/src/github.com/needf/myfirst&&ls
