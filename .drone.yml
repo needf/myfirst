@@ -1,4 +1,4 @@
-image: nginx
+image: dockerfile/nginx
 script:
   - sudo apt-get install git-core
   - echo hello world
