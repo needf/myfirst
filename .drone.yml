@@ -6,9 +6,7 @@ script:
   - cat /etc/issue
   - sudo ifconfig | grep eth0
   - ls
-  - sudo docker ps
-  - cd /var/cache/drone/src/github.com/needf/myfirst&&ls
 notify:
   email:
     recipients:
-      - 416205017@qq.com
+      - xxxxx@qq.com
