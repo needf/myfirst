@@ -6,7 +6,7 @@ script:
   - cat /etc/issue
   - sudo ifconfig | grep eth0
   - echo "hello new eamil"
-
+  - sudo service nginx restart
 notify:
   email:
     recipients:
