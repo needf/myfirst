@@ -5,3 +5,8 @@ script:
   - echo hello world
   - cat /etc/issue
   - sudo ifconfig | grep eth0
+
+notify:
+  email:
+    recipients:
+      - 416205017@qq.com
