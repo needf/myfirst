@@ -5,7 +5,6 @@ script:
   - echo hello world
   - cat /etc/issue
   - sudo ifconfig | grep eth0
-  - echo "hello new eamil"
 notify:
   email:
     recipients:
