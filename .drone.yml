@@ -1,5 +1,3 @@
-cache: 
-  - /tmp/github
 image: dockerfile/nginx
 script:
   - echo hello world
